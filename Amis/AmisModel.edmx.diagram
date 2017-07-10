@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4a3eca96b7f343b198c540e54256d2ca" Name="Diagram1" ZoomLevel="69">
+        <EntityTypeShape EntityType="AmisEntity.Alarm" Width="1.5" PointX="24.75" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.AmisTask" Width="1.5" PointX="24.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.AmisTaskType" Width="1.5" PointX="22.5" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.AmisUser" Width="1.5" PointX="21.75" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.AmisUserTask" Width="1.5" PointX="27" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Application" Width="1.5" PointX="6" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Asset" Width="1.5" PointX="8.25" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.AssetEvent" Width="1.5" PointX="10.5" PointY="26.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.AssetModel" Width="1.5" PointX="0.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.AssetModelService" Width="1.5" PointX="0.75" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.AssetPosition" Width="1.5" PointX="8.25" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.AssetSituation" Width="1.5" PointX="8.25" PointY="37.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.AssetType" Width="1.5" PointX="0.75" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.AssetUniqueIdentification" Width="1.5" PointX="3" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.AssignedUnit" Width="1.5" PointX="18.75" PointY="31.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Assignment" Width="1.5" PointX="18.75" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.AuditDocument" Width="1.5" PointX="24" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.AuditDocumentItem" Width="1.5" PointX="13.5" PointY="31.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.AxleConfiguration" Width="1.5" PointX="6" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.BranchOffice" Width="1.5" PointX="17.25" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Brand" Width="1.5" PointX="1.5" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Commune" Width="1.5" PointX="12.75" PointY="40.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.ConfigurationAxleUnitType" Width="1.5" PointX="17.25" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.ConfigurationUnitType" Width="1.5" PointX="12" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.CostBaseLine" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Country" Width="1.5" PointX="8.25" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Currency" Width="1.5" PointX="8.25" PointY="50.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.DepthSetting" Width="1.5" PointX="14.25" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.DispatchDocument" Width="1.5" PointX="24" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.DispatchDocumentItem" Width="1.5" PointX="13.5" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.DispatchProviderDocument" Width="1.5" PointX="27" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.DispatchProviderDocumentItem" Width="1.5" PointX="29.25" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.DispatchProviderDocumentState" Width="1.5" PointX="24.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.EventAssetType" Width="1.5" PointX="3" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Facility" Width="1.5" PointX="21.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.FacilityType" Width="1.5" PointX="19.5" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.FireType" Width="1.5" PointX="3.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.GlobalCost" Width="1.5" PointX="2.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.GlobalCostDetail" Width="1.5" PointX="5" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.IndexWegh" Width="1.5" PointX="1.5" PointY="40.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Location" Width="1.5" PointX="15" PointY="40.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Manufacturer" Width="1.5" PointX="1.5" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.MeasurementsTyre" Width="1.5" PointX="1.5" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.MeasurementUnit" Width="1.5" PointX="8.25" PointY="43.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Member" Width="1.5" PointX="12" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.MemberBranchOffice" Width="1.5" PointX="21.5" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.MemberType" Width="1.5" PointX="9.75" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.MenuOption" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Operation" Width="1.5" PointX="16.5" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Origin" Width="1.5" PointX="0.75" PointY="32.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.PageAction" Width="1.5" PointX="21.75" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.PageLog" Width="1.5" PointX="24" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.PressureSetting" Width="1.5" PointX="14.25" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.ReceptionDocument" Width="1.5" PointX="24" PointY="40.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.ReceptionDocumentItem" Width="1.5" PointX="13.5" PointY="34.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Region" Width="1.5" PointX="10.5" PointY="40.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.RepairType" Width="1.5" PointX="3" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.ScrapType" Width="1.5" PointX="3" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.SettingBattery" Width="1.5" PointX="3" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.SettingCat" Width="1.5" PointX="3" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.SettingExtinguisher" Width="1.5" PointX="6" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.SettingLigthPole" Width="1.5" PointX="3" PointY="48" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.SettingRadio" Width="1.5" PointX="3" PointY="50.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.SettingTyre" Width="1.5" PointX="0.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.SituationType" Width="1.5" PointX="6" PointY="37.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.SpeedIndex" Width="1.5" PointX="1.5" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.SubEventAssetType" Width="1.5" PointX="5.25" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.SuspensionType" Width="1.5" PointX="12" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.SystemParameter" Width="1.5" PointX="10.5" PointY="42.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Tag" Width="1.5" PointX="8.25" PointY="46.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.TagAssigned" Width="1.5" PointX="10.5" PointY="36.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.TractionType" Width="1.5" PointX="9.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Unit" Width="1.5" PointX="16.5" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.UnitAsset" Width="1.5" PointX="18.75" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.UnitRegister" Width="1.5" PointX="14.25" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.UnitType" Width="1.5" PointX="9.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.UserAlarm" Width="1.5" PointX="27" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.UserAlarmType" Width="1.5" PointX="24.75" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.UserMenuOption" Width="1.5" PointX="27" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmisEntity.Warehouse" Width="1.5" PointX="19.5" PointY="40.25" IsExpanded="true" />
+        <AssociationConnector Association="AmisEntity.FK_USERALAR_REFERENCE_ALARM" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_AMISTASK_REFERENCE_AMISTASK" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_AMISUSER_REFERENCE_AMISTASK" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_AMISUSER_REFERENCE_AMISUSER" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_AMISUSER_REFERENCE_MEMBER" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_AUDITDOC_REFERENCE_AMISUSER" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_PAGELOG_REFERENCE_AMISUSER" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_USERALAR_REFERENCE_AMISUSER" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_USERMENU_REFERENCE_AMISUSER" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSET_REFERENCE_APPLICAT" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_CONFIGUR_REFERENCE_APLICACI2" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_DEPTHSET_REFERENCE_APPLICAT" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_DISPATCH_REFERENCE_APPLICAT" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSET_REFERENCE_ASSETUNI" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSET_REFERENCE_DISPATCH" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSET_REFERENCE_FACILITY" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSET_REFERENCE_REPAIRTY" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSET_REFERENCE_SCRAPTYP" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETEVE_REFERENCE_ASSET" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_AUDITDOC_REFERENCE_ASSET" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_DOCUMENT_REFERENCE_ACTIVO2" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_RECEPTIO_REFERENCE_ASSET" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_TAGASSIG_REFERENCE_ASSET" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_UNIT_REFERENCE_ASSET" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_UNITASSE_REFERENCE_ASSET" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETEVE_REFERENCE_ASSETPOS" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETEVE_REFERENCE_ASSETSIT" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETEVE_REFERENCE_ASSETUNI" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETEVE_REFERENCE_ASSIGNME" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETEVE_REFERENCE_FACILITY" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETEVE_REFERENCE_MEASUREM" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETEVE_REFERENCE_MEMBER" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETEVE_REFERENCE_SUBEVENT" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETEVE_REFERENCE_UNIT" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETMOD_REFERENCE_BRAND" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETUNI_IDENTIFIC_REFERENCE_ASSETMOD" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_CONFIGUR_REFERENCE_MODELOAC2" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_DEPTHSET_REFERENCE_ASSETMOD" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_SETTINGB_REFERENCE_ASSETMOD" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_SETTINGC_REFERENCE_ASSETMOD" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_SETTINGE_REFERENCE_ASSETMOD" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_SETTINGL_REFERENCE_ASSETMOD" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_SETTINGR_REFERENCE_ASSETMOD" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETUNI_REFERENCE_ASSETMOD" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETPOS_REFERENCE_AXLECONF" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_UNITASSE_REFERENCE_ASSETPOS" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETSIT_REFERENCE_SITUATIO" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETUNI_REFERENCE_ASSETTYP" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_EVENTASS_REFERENCE_ASSETTYP" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_REPAIRTY_REFERENCE_ASSETTYP" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_SCRAPTYP_REFERENCE_ASSETTYP" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETUNI_REFERENCE_ORIGIN" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSETUNI_REFERENCE_SETTINGT" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_DISPATCH_REFERENCE_ASSETUNI" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSIG_PAR_REFERENCE_UNIT" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSIGNME_REFERENCE_OPERATIO" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_ASSIGNME_REFERENCE_UNIT" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_AUDITDOC_REFERENCE_AUDITDOC" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_AUDITDOC_REFERENCE_FACILITY" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_CONFIGUR_REFERENCE_AXLECONF" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_BRANCHOF_REFERENCE_LOCATION" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_MEMBERBR_REFERENCE_BRANCHOF" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_OPERATIO_REFERENCE_BRANCHOF" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_WAREHOUS_REFERENCE_BRANCHOF" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_BRAND_REFERENCE_MANUFACT" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_COMMUNE_REFERENCE_REGION" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_LOCATION_REFERENCE_COMMUNE" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_CONFIGUR_REFERENCE_CONFIGUR" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_CONFIGUR_REFERENCE_TRACTION" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_CONFIGUR_REFERENCE_UNITTYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_UNITREGI_REFERENCE_CONFIGUR" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_REGION_REFERENCE_COUNTRY" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_SYSTEMPA_REFERENCE_CURRENCY" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_DISPATCH_REFERENCE_FACILITY_DESTINY" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_DISPATCH_REFERENCE_FACILITY_ORIGIN" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_DOCUMENT_REFERENCE_DOCUMENT2" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_DISPAT_ITEM_REFERENCE_DISPATCH" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_DISPATCH_PROVIDER_REFERENCE_DISPATCH_STATE" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_DISPATCH_REFERENCE_FACILITY" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_DISPATCH_REFERENCE_MEMBER" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_DISPATCH_ITEM_REFERENCE_DISPATCH" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_SUBEVENT_REFERENCE_EVENTASS" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_FACILITY_REFERENCE_FACILITY" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_FACILITY_REFERENCE_UNIT" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_FACILITY_REFERENCE_WAREHOUS" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_RECEPTIO_REFERENCE_FACILITY" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_SETTINGE_REFERENCE_FIRETYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_GLOBALCO_REFERENCE_GLOBALCO" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_SETTINGT_REFERENCE_INDEXWEG" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_SETTINGT_REFERENCE_MEASUREM" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_SYSTEMPA_REFERENCE_MEASUREM" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_SYSTEMPA_REFERENCE_MEASUREM2" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_SYSTEMPA_REFERENCE_MEASUREM3" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_MEMBER_REFERENCE_MEMBERTY" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_MEMBERBR_REFERENCE_MEMBER" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_OPERATIO_REFERENCE_MEMBER" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_UNITREGI_REFERENCE_MEMBER" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_MENUOPTI_REFERENCE_MENUOPTIPATERN" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_PAGELOG_REFERENCE_MENUOPTI" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_USERMENU_REFERENCE_MENUOPTI" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_PAGELOG_REFERENCE_PAGEACTI" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_RECEPTIO_REFERENCE_RECEPTIO" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_SETTINGT_REFERENCE_SPEEDIND" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_UNITREGI_REFERENCE_SUSPENSI" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_TAGASSIG_REFERENCE_TAG" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_UNIT_REFERENCE_UNITREGI" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_UNITASSE_REFERENCE_UNIT" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_UNITREGI_REFERENCE_UNITTYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="AmisEntity.FK_USERALAR_REFERENCE_USERALAR" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
