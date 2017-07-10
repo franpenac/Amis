@@ -1,0 +1,115 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Transactions;
+using amis._Common;
+using amis._DataLayer;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using Infragistics.Web.UI;
+using Infragistics.Web.UI.EditorControls;
+using Infragistics.Web.UI.GridControls;
+using amis.Models;
+using amis._DataLayer.GeneratedCode;
+
+namespace amis._BusinessLayer.GeneratedCode
+{
+    public class BcDepthSetting : ITsDropDownList
+    {
+        public void Copy(DepthSetting objSource, ref DepthSetting objDestination)
+        {
+            new DcDepthSetting().Copy(objSource, ref objDestination);
+        }
+
+        public DepthSetting Save(DepthSetting objSource, out string errorMessage)
+        {
+            DepthSetting obj = new DcDepthSetting().Save(objSource, out errorMessage);
+            if (obj != null)
+                errorMessage = "La configuración fue guardada correctamente.";
+
+            else
+                errorMessage = "No fue posible guardar la configuración, por favor informe al Administrador del Sistema. El Servidor entregó el siguiente mensaje: " + errorMessage;
+            return obj;
+        }
+
+        public bool Validate(DepthSetting setting, out string errorMessage)
+        {
+            if (!new BcApplication().ValidateApplicationId(setting.ApplicationId, out errorMessage)) return false;
+            if (!new BcAssetModel().ValidateAssetModelId(setting.AssetModelId, out errorMessage)) return false;
+            if (!new DcDepthSetting().ValidateSaveDepthSetting(setting, out errorMessage)) return false;
+            return true;
+        }
+
+        public bool ExistsDepthSetting(int DepthSettingId, out string errorMessage)
+        {
+            bool exist = new DcDepthSetting().ExistsDepthSetting(DepthSettingId, out errorMessage);
+            return exist;
+        }
+
+        public List<DepthSetting> GetDepthSettingList(out string errorMessage)
+        {
+            List<DepthSetting> list = new DcDepthSetting().GetDepthSettingList(out errorMessage);
+            return list;
+        }
+
+        public CommonEnums.DeletedRecordStates DeleteDepthSetting(int settingId, out string errorMessage)
+        {
+            CommonEnums.DeletedRecordStates wasDeleted = new DcDepthSetting().DeleteDepthSetting(settingId, out errorMessage);
+            if (wasDeleted == CommonEnums.DeletedRecordStates.DeletedOk)
+            {
+                errorMessage = "La configuración fue eliminada correctamente.";
+                return CommonEnums.DeletedRecordStates.DeletedOk;
+            }
+            else if (wasDeleted == CommonEnums.DeletedRecordStates.NotFound)
+            {
+                errorMessage = "No se encontró la configuración por lo cual no pudo ser eliminado.";
+                return CommonEnums.DeletedRecordStates.NotFound;
+            }
+            errorMessage = "La configuración '"
+                + " no pudo ser eliminada. Comuníquese con el Administrador del Sistema. "
+                + "El Servidor entregó el siguiente mensaje: " + errorMessage;
+            return CommonEnums.DeletedRecordStates.NotDeleted;
+        }
+
+        public void ExportWebDataGridToExcel(WebExcelExporter webExcelExporter, WebDataGrid webDataGrid)
+        {
+            webExcelExporter.DataExportMode = Infragistics.Web.UI.GridControls.DataExportMode.AllDataInDataSource;
+            webExcelExporter.DownloadName = "amis_exported_file.xlsx";
+            webExcelExporter.Export(webDataGrid);
+        }
+
+        // Implementacion de las interfaces
+
+        List<TsDropDownItem> ITsDropDownList.GetComboList(out string errorMessage)
+        {
+            errorMessage = "";
+            List<TsDropDownItem> list = new DcDepthSetting().GetComboList(out errorMessage);
+            return list;
+        }
+
+        IEnumerable<object> ITsDropDownList.GetTableList(out string errorMessage)
+        {
+            IEnumerable<object> list = new DcDepthSetting().GetTableList(out errorMessage);
+            return list;
+        }
+
+        public IEnumerable<object> GetTableList2(out string errorMessage)
+        {
+            IEnumerable<object> list = new DcDepthSetting().GetTableList(out errorMessage);
+            return list;
+        }
+
+        public List<TsDropDownItem> GetComboListByFiltrer(int id, out string errorMessage)
+        {
+            throw new NotImplementedException();
+        }
+
+        public DepthSetting GetDepthSettingByAssetModelId(int assetModelId, out string errorMessage)
+        {
+            return new DcDepthSetting().GetDepthSettingByAssetModelId(assetModelId, out errorMessage);
+        }
+    }
+
+}
