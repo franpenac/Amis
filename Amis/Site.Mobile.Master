@@ -1,0 +1,144 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Mobile.master.cs" Inherits="amis.Site_Mobile" %>
+<%@ Register Src="~/ViewSwitcher.ascx" TagPrefix="friendlyUrls" TagName="ViewSwitcher" %>
+
+<%@ Register Assembly="Infragistics45.Web.v15.2, Version=15.2.20152.2125, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" Namespace="Infragistics.Web.UI" TagPrefix="ig" %>
+
+<%@ Register Assembly="Infragistics45.Web.v15.2, Version=15.2.20152.2125, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" Namespace="Infragistics.Web.UI.NavigationControls" TagPrefix="ig" %>
+
+<%@ Register Assembly="Infragistics45.Web.v15.2, Version=15.2.20152.2125, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" Namespace="Infragistics.Web.UI.LayoutControls" TagPrefix="ig" %>
+
+
+<!DOCTYPE html>
+
+<html lang="es" >
+<head runat="server">
+    <meta name="viewport" content="width=device-width" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Amis</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:bundlereference runat="server" path="~/Content" />
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/amis.css">
+    <asp:ContentPlaceHolder ID="HeaderContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+.igeb_ItemLabel
+{
+    color: white !important;
+    background-color: transparent !important;
+    border:none !important;
+    border-color: transparent !important;
+}
+.igeb_Control {
+    border-color: Transparent !important;
+        }     
+    </style>
+</head>
+<body class="navbar-inverse">
+    <form runat="server" class="navbar-inverse">
+        
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+            </Scripts>
+        </asp:ScriptManager>
+        <section class="content-wrapper main-content clear-fix">
+        <div style="height:auto; width:99%; border:none">
+            <div class="navbar navbar-inverse navbar-fixed-top " style="left: -8px; right: 9px; top: -7px; height: 56px; width:101%">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" runat="server">AMIS</a>
+                        
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a runat="server" href="~/_PresentationLayer/Configuration/AmisHomePage.aspx">Inicio</a></li>
+
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <asp:LinkButton ID="lnkBtnChangePassword" runat="server" PostBackUrl="~/_PresentationLayer/Users/ChangePasswordFromAmisPage.aspx">Cambiar Contraseña</asp:LinkButton></li>
+                            <li>
+                                <asp:LinkButton ID="lnkLogOut" runat="server" OnClick="lnkLogOut_Click">Cerrar Sesion</asp:LinkButton></li>
+                            <li>
+                                <asp:LinkButton ID="lnkBtnUserNameInSession" runat="server" Font-Size="Medium" Font-Bold="true" Enabled="false"></asp:LinkButton></li>
+                            <li><asp:LinkButton ID="lnkBtnTextAdmin" runat="server" Font-Size="Medium" Font-Bold="true" Enabled="false" Text="(Administrador)" Visible="false"></asp:LinkButton></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <ig:WebSplitter ID="WebSplitter2" runat="server" Height="900px" Width="101%" CssClass="ContentBody" ScrollBars="Hidden" BorderStyle="None">
+                <Panes>
+                    <ig:SplitterPane runat="server" MinSize="700px" >
+                        <Template>
+                            <div style="vertical-align:top">
+                                <ig:WebSplitter ID="WebSplitter1" runat="server" Height="900px" CssClass="navbar-inverse" Width="100%" BorderStyle="None">
+                                    <Panes>
+                                        
+                                        <ig:SplitterPane runat="server" Size="300px" CollapsedDirection="PreviousPane" CssClass="navbar-inverse" BorderStyle="None" ScrollBars="Hidden">
+                                            <Template>
+                                                    <ig:WebExplorerBar ID="wexMenu" runat="server" Width="300px" GroupContentsHeight="">
+                                                    <Groups>
+                                                        <ig:ExplorerBarGroup GroupContentsHeight="" CssClass="igeb_ItemLabel" Text="Usuarios"></ig:ExplorerBarGroup>
+                                                        <ig:ExplorerBarGroup GroupContentsHeight="" CssClass="igeb_ItemLabel" Text="Configuraciones"></ig:ExplorerBarGroup>
+                                                        <ig:ExplorerBarGroup GroupContentsHeight="" CssClass="igeb_ItemLabel" Text="Operaciones"></ig:ExplorerBarGroup>
+                                                        <ig:ExplorerBarGroup GroupContentsHeight="" CssClass="igeb_ItemLabel" Text="Proveedores"></ig:ExplorerBarGroup>
+                                                        <ig:ExplorerBarGroup GroupContentsHeight="" CssClass="igeb_ItemLabel" Text="Costo Global"></ig:ExplorerBarGroup>
+                                                        <ig:ExplorerBarGroup GroupContentsHeight="" CssClass="igeb_ItemLabel" Text="Reportes">
+                                                        </ig:ExplorerBarGroup>
+                                                    </Groups>
+                                                </ig:WebExplorerBar>
+                                            </Template>
+                                        </ig:SplitterPane>
+                                        
+                                        <ig:SplitterPane runat="server" Size="100%" CssClass="ContentBody" BorderStyle="None" ScrollBars="Hidden">
+                                            <Template>
+                                           
+                                                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                                                           
+                                                </asp:ContentPlaceHolder>
+
+                                            </Template>
+                                        </ig:SplitterPane>
+                                           
+                                    </Panes>
+                                    
+                                </ig:WebSplitter>
+                            </div>
+                        </Template>
+                    </ig:SplitterPane>
+                </Panes>
+            </ig:WebSplitter>
+                
+            </div>
+        <br />
+            </section>   
+                        <footer>
+                <p style="background-color:transparent; color:white; text-align:center">&copy; <%: DateTime.Now.Year %> - Asset Management Integrated System</p>
+            </footer>
+    </form>
+</body>
+</html>
