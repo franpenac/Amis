@@ -1,0 +1,25 @@
+﻿body {
+    font-family:Arial;
+    
+}
+
+
+.LeftLabel
+{
+    font-family:Arial;
+    font-size: 18px;
+}
+
+.igeb_ItemLabel
+{
+    color: white !important;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+
+.igeb_ItemWhite
+{
+    color: white;
+    border: 1px solid blue;
+    background-color: yellow;
+}

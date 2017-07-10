@@ -1,0 +1,47 @@
+﻿
+.popupMensajePanelClass{
+    border: solid;
+    width: 550px; 
+    height: 300px;
+    font-family: "Trebuchet MS", "Helvetica", "Arial", "Verdana", "sans-serif";
+    font-size: 12px;
+    background-color: white;
+}
+
+
+
+.popupPanelClass{
+    
+    border: solid, 0.5px;
+    width: 650px; 
+    height: 220px;
+    font-family: "Trebuchet MS", "Helvetica", "Arial", "Verdana", "sans-serif";
+    font-size: 12px;
+    background-color: white;
+}
+.popupContainerClass{
+    
+}
+
+.popupBody{
+
+}
+
+.popupBodyCuota{
+    margin-left:6px; margin-right:6px;
+}
+.popupCuotaPanelClass{
+    border: solid black;
+    width: 600px; 
+    height: 450px;
+    font-family: "Trebuchet MS", "Helvetica", "Arial", "Verdana", "sans-serif";
+    font-size: 12px;
+    background-color: white;
+}
+.popupMensajePanelClassCuota{
+    border: solid black;
+    width: 475px; 
+    font-family: "Trebuchet MS", "Helvetica", "Arial", "Verdana", "sans-serif";
+    font-size: 12px;
+    background-color: white;
+}

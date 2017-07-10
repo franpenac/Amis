@@ -1,0 +1,127 @@
+.body {
+    background: url(../ig_common/images/FondoGris.png);
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.loginText {
+    color: #fff;
+    font-size: 100%;
+    left: 600px;
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.login-header {
+    color: #fff;
+    text-align: left;
+    font-size: 160%;
+    left: 100px;
+}
+
+.login-form {
+    border: 2px solid #999;
+    background: #2c3e50;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.login-form {
+    box-sizing: border-box;
+    padding-top: 30px;
+    margin: 200px auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.buttonLogin {
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px 120px;
+    border: none;
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #91c01c;
+    background-image: -moz-linear-gradient(top, #91c01c 0%, #456ca3 100%);
+    background-image: -webkit-linear-gradient(top, #91c01c 0%, #456ca3 100%);
+    background-image: -o-linear-gradient(top, #91c01c 0%, #456ca3 100%);
+    background-image: -ms-linear-gradient(top, #91c01c 0%,#456ca3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#456ca3', endColorstr='#456ca3',GradientType=0 );
+    background-image: linear-gradient(top, #91c01c 0%,#456ca3 100%);
+    -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+}
+
+.button:hover {
+    padding: 11px 32px;
+    border: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    color: #ffffff;
+    background-color: #91c01c;
+    background-image: -moz-linear-gradient(top, #91c01c 0%, #456ca3 100%);
+    background-image: -webkit-linear-gradient(top, #91c01c 0%, #456ca3 100%);
+    background-image: -o-linear-gradient(top, #91c01c 0%, #456ca3 100%);
+    background-image: -ms-linear-gradient(top, #91c01c 0%,#456ca3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#456ca3', endColorstr='#456ca3',GradientType=0 );
+    background-image: linear-gradient(top, #91c01c 0%,#456ca3 100%);
+    -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+}
+
+.button:active {
+    padding: 11px 32px;
+    border: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    color: #ffffff;
+    background-color: #91c01c;
+    background-image: -moz-linear-gradient(top, #91c01c 0%, #456ca3 100%);
+    background-image: -webkit-linear-gradient(top, #91c01c 0%, #456ca3 100%);
+    background-image: -o-linear-gradient(top, #91c01c 0%, #456ca3 100%);
+    background-image: -ms-linear-gradient(top, #91c01c 0%,#456ca3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#456ca3', endColorstr='#456ca3',GradientType=0 );
+    background-image: linear-gradient(top, #91c01c 0%,#456ca3 100%);
+    -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+}
+
+.forgotPassword {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.InputBox {
+    border: 3px;
+    border-color: #91c01c;
+    border-style: solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 20px;
+    padding-left: 9px;
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    font-size: 13px;
+    color: black;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-right: 25px;
+}
